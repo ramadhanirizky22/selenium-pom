@@ -1,6 +1,6 @@
 # seleniumm python venv
 env/
-env
+.env
 /env
 
 .pytest_cache/

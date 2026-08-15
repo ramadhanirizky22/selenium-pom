@@ -30,8 +30,10 @@ jobs:
       - name: Run Pytest Automation Tests
         env:
           HEADLESS: "true"
+          PYTHONPATH: "."
         run: |
           pytest -v
+
 
       - name: Upload Test Report Artifact
         if: always()
